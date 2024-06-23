@@ -35,3 +35,14 @@ php artisan install:api –passport
 
 Would you like to use UUIDs for all client IDs? (yes/no) [no]:
  > yes
+
+php artisan make:controller Api/ApiController
+- Criação das rotas:
+login
+logout
+store
+
+php artisan make:migration create_admin_user 
+Criação do usuário de teste Admin
+
+php artisan migrate

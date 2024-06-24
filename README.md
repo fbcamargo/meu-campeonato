@@ -55,3 +55,12 @@ php artisan make:model League --migration
 php artisan make:controller Api/LeagueController
 
 php artisan migrate 
+
+- Times:
+Criação das CRUD para times
+
+php artisan make:model Team --migration
+
+php artisan make:controller Api/TeamController
+
+php artisan migrate 

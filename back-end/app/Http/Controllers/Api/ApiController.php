@@ -41,7 +41,7 @@ class ApiController extends Controller
         auth()->user()->token()->revoke();
 
         return response()->json([
-            "status" => 1,
+            "status" => true,
             "message" => "Logout feito com sucesso!"
         ]);
     }
@@ -61,7 +61,7 @@ class ApiController extends Controller
         ]);
 
         return response()->json([
-            "status" => 1,
+            "status" => true,
             "message" => "Usuário criado com sucesso!"
         ]);
     }

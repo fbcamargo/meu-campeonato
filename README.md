@@ -46,3 +46,12 @@ php artisan make:migration create_admin_user
 Criação do usuário de teste Admin
 
 php artisan migrate
+
+- Campeonatos:
+Criação das CRUD para campeonatos
+
+php artisan make:model League --migration
+
+php artisan make:controller Api/LeagueController
+
+php artisan migrate 
